@@ -37,6 +37,6 @@ def read_once():
 for i in range(10):
     distance = read_once()
     print "Distance:",distance,"cm"
-    time.sleep(0.2)
+    time.sleep(0.4)
 
 GPIO.cleanup()
