@@ -109,7 +109,7 @@ if __name__ == "__main__":
         read_list.append(cur_read)
         print("{} {}".format(r, cur_read))
         r += 1
-        time.sleep(0.1)
+        time.sleep(0.25)
 
     sonar.cancel()
 
