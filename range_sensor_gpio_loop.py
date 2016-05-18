@@ -34,9 +34,23 @@ def read_once():
 
     return distance
 
+dist_list = []
+
 for i in range(30):
     distance = read_once()
+    dist_list.append(distance)
     print "Distance:",distance,"cm"
     time.sleep(0.4)
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+myarray = np.array(read_list)
+
+plt.figure(1)
+plt.clf()
+plt.plot(myarray)
+
+plt.show()
 
 GPIO.cleanup()
