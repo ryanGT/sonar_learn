@@ -113,4 +113,11 @@ if __name__ == "__main__":
 
     sonar.cancel()
 
+    from numpy import *
+    myarray = array(read_list)
+
+    figure(1)
+    clf()
+    plot(myarray)
+
     pi.stop()
