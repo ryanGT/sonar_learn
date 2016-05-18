@@ -34,7 +34,7 @@ def read_once():
 
     return distance
 
-for i in range(10):
+for i in range(30):
     distance = read_once()
     print "Distance:",distance,"cm"
     time.sleep(0.4)
