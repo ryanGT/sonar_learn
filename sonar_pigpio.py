@@ -102,9 +102,12 @@ if __name__ == "__main__":
     end = time.time() + 10.0
 
     r = 1
+    read_list = []
+    
     while time.time() < end:
-
-        print("{} {}".format(r, sonar.read()))
+        cur_read = sonar.read()
+        read_list.append(cur_read)
+        print("{} {}".format(r, cur_read))
         r += 1
         time.sleep(0.03)
 
