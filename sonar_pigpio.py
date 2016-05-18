@@ -113,6 +113,7 @@ if __name__ == "__main__":
 
     sonar.cancel()
 
+    from matplotlib.pyplot import *
     from numpy import *
     myarray = array(read_list)
 
