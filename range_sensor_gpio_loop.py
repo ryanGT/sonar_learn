@@ -45,7 +45,7 @@ for i in range(30):
 
 import matplotlib.pyplot as plt
 import numpy as np
-myarray = np.array(read_list)
+myarray = np.array(dist_list)
 
 plt.figure(1)
 plt.clf()
