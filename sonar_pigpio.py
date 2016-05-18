@@ -99,7 +99,7 @@ if __name__ == "__main__":
 
     sonar = ranger(pi, 23, 24)
 
-    end = time.time() + 10.0
+    end = time.time() + 30.0
 
     r = 1
     read_list = []
