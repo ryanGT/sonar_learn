@@ -99,7 +99,7 @@ if __name__ == "__main__":
 
     sonar = ranger(pi, 23, 24)
 
-    end = time.time() + 30.0
+    end = time.time() + 15.0
 
     r = 1
     read_list = []
@@ -109,7 +109,7 @@ if __name__ == "__main__":
         read_list.append(cur_read)
         print("{} {}".format(r, cur_read))
         r += 1
-        time.sleep(0.25)
+        time.sleep(0.5)
 
     sonar.cancel()
 
